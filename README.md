@@ -22,7 +22,15 @@
 - Expectimax
 - Evaluation Function
 
-
+3. *Constraint Satisfaction Problems*
+>  이 프로젝트에서 저는 제약 만족 문제와 백트래킹 검색 알고리즘을 구현하였습니다.. 
+제가 작성한 알고리즘들은 backtracking.py, csp_problems.py, constraints.py 안에 있습니다.
+특히 비행기 스케쥴 문제를 제약 만족 문제로 푸는 과정은 어렵지만 흥미로웠습니다.
+다음은 제가 작성한 알고리즘들입니다.
+- Forward Checking
+- Generalized	Arc	Consistency
+- Various constraints
+- Plane Scheduling as Constraint Satisfaction Problem
 ---------------------------------------------------------------------------
 
 1. *Search*
@@ -45,3 +53,13 @@ Followings are the game tree search algorithms that I have applied to the pacman
 - Alpha-Beta Pruning
 - Expectimax
 - Evaluation Function
+
+3. *Constraint Satisfaction Problems*
+>  In this project, I have implemented Constraint Satisfaction Problems and backtracking search algorithm
+My written codes are in backtracking.py, csp_problems.py, constraints.py.
+Representing Plane Scheduling as Constraint Satisfaction Problem was hard but interesting.
+Followings are the implemented algorithms.
+- Forward Checking
+- Generalized	Arc	Consistency
+- Various constraints
+- Plane Scheduling as Constraint Satisfaction Problem
