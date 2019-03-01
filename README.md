@@ -23,14 +23,25 @@
 - Evaluation Function
 
 3. *Constraint Satisfaction Problems*
->  이 프로젝트에서 저는 제약 만족 문제와 백트래킹 검색 알고리즘을 구현하였습니다.. 
-> 제가 작성한 알고리즘들은 backtracking.py, csp_problems.py, constraints.py 안에 있습니다.
+> 이 프로젝트에서 저는 제약 만족 문제와 백트래킹 검색 알고리즘을 구현하였습니다.
 > 특히 비행기 스케쥴 문제를 제약 만족 문제로 푸는 과정은 어렵지만 흥미로웠습니다.
+> 제가 작성한 알고리즘들은 backtracking.py, csp_problems.py, constraints.py 안에 있습니다.
 > 다음은 제가 작성한 알고리즘들입니다.
 - Forward Checking
 - Generalized	Arc	Consistency
 - Various constraints
 - Plane Scheduling as Constraint Satisfaction Problem
+
+
+4. *Ghostbusters*
+> 이 프로젝트에서 저는 센서를 사용하여 보이지 않는 유령들을 찾고 먹는 팩맨을 구현하였습니다.
+> 저는 움직이지 않는 단수의 유령부터 움직이는 여러 유령을 효율적으로 찾을 수 있는 알고리즘을 구현하였습니다.
+> 불확실성 속에서 합리적으로 다음 행동을 선택할 수 있는 추론 알고리즘을 적용하였습니다.
+> 제가 작성한 알고리즘들은 bustersAgents.py, inference.py 안에 있습니다.
+> 다음은 제가 작성한 알고리즘들입니다.
+- Exact Inference Observation with Time Elapse
+- Approximate Inference with Time Elapse
+- Joint Particle Filter with Elapse Time
 ---------------------------------------------------------------------------
 
 1. *Search*
@@ -63,3 +74,13 @@
 - Generalized	Arc	Consistency
 - Various constraints
 - Plane Scheduling as Constraint Satisfaction Problem
+
+4. *Ghostbusters*
+> In this project, I have implemented the pacman agent that uses sensor to locate and eat invisible ghosts.
+> It can efficitly find from single, stationary ghost to multiple, moving ghosts.
+> I have applied inference algorithms that can make rational action in uncertainty.
+> the lines of code written are in bustersAgents.py, inference.py.
+> Followings are the implemented algorithms.
+- Exact Inference Observation with Time Elapse
+- Approximate Inference with Time Elapse
+- Joint Particle Filter with Elapse Time
